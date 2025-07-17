@@ -16,7 +16,7 @@ function PageAceitunas() {
 
 
         <section className="MediaPageAceites">
-            <img src="IMG/Finca.jpeg" alt="imgMedia"/>
+            <img src="/IMG/Finca.jpeg" alt="imgMedia"/>
         </section>
 
 
@@ -34,25 +34,25 @@ function PageAceitunas() {
 
 
             <div className="Fotosaceitunas">
-                <img src="IMG/1kg.JPEG" alt="Fotosaceitunas"/>
+                <img src="/IMG/1kg.JPEG" alt="Fotosaceitunas"/>
                 <p>Aceitunas Arauco mixtas <br/> Rellenas de jamón crudo, roquefort, almendras, nuez, jamón cocido y morrón</p>
             </div>
 
 
             <div className="Fotosaceitunas">
-                <img src="IMG/2kg.JPEG" alt="Fotosaceitunas"/>
+                <img src="/IMG/2kg.JPEG" alt="Fotosaceitunas"/>
                 <p>Aceitunas verdes Arauco <br/> Frasco 2KG</p>
             </div>
     
 
             <div className="Fotosaceitunas">
-                <img src="IMG/5kg verdes.JPEG" alt="Fotosaceitunas"/>
+                <img src="/IMG/5kg verdes.JPEG" alt="Fotosaceitunas"/>
                 <p>Aceitunas verdes Arauco <br/> Bidón 5kg</p>
             </div>
 
 
             <div className="Fotosaceitunas">
-                <img src="IMG/5kg.JPEG" alt="Fotosaceitunas"/>
+                <img src="/IMG/5kg.JPEG" alt="Fotosaceitunas"/>
                 <p>Aceitunas negras Arauco <br/> Bidón 5kg</p>
             </div>
         </div>
@@ -67,7 +67,7 @@ function PageAceitunas() {
             </p>
 
             <div class="IMGVisita">
-            <img src="IMG/olivo cuticentenario.png" alt="BienvenidoHilal"/>
+            <img src="/IMG/olivo cuticentenario.png" alt="BienvenidoHilal"/>
             </div>
         </div>
     </section>

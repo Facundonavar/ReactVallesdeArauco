@@ -10,7 +10,7 @@ function Secciones() {
     <>
 
          <div className="ENCABEZADOIMAGEN">   
-             <img src="IMG/Interfaz1 - copia.jpeg" alt="ENCABEZADOIMG" 
+             <img src="/IMG/Interfaz1 - copia.jpeg" alt="ENCABEZADOIMG" 
              className={zoom ?'zoom-activo' : '' }
              onMouseEnter={() => setZoom (true)}
              onMouseLeave={() => setZoom (false)}
@@ -33,7 +33,7 @@ function Secciones() {
              <div class="VisitaHilal">
 
                  <div class="IMGVisita">     
-                     <img src="IMG/Aceite.JPEG" alt="FotoAceite"/>
+                     <img src="/IMG/Aceite.JPEG" alt="FotoAceite"/>
                  </div>
 
                  <p class="Visitaguiada">
@@ -41,7 +41,7 @@ function Secciones() {
                  </p>
      
                  <div class="IMGVisita">
-                     <img src="IMG/BienvenidoHilal.JPEG" alt="Fotocarteleria"/>
+                     <img src="/IMG/BienvenidoHilal.JPEG" alt="Fotocarteleria"/>
                  </div>
              </div>
         </section>

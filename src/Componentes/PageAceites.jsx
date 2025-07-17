@@ -24,7 +24,7 @@ function PageAceites() {
 
 
             <div className="imgMedia">
-                <img src="IMG/Aceiteoliva.JPG" alt="imgMedia"/>
+                <img src="/IMG/Aceiteoliva.JPG" alt="imgMedia"/>
             </div>
         </div>
     </section>
@@ -38,18 +38,18 @@ function PageAceites() {
     
 
             <div className="Fotosaceites">
-                <img src="IMG/Aceite 1litro.JPEG" alt="Fotosaceites"/>
+                <img src="/IMG/Aceite 1litro.JPEG" alt="Fotosaceites"/>
                 <p>Aceite de oliva virgen extra <br/> Botellon 1 litro</p>
             </div>
     
 
             <div className="Fotosaceites">
-                <img src="IMG/2lts.JPEG" alt="Fotosaceites"/>
+                <img src="/IMG/2lts.JPEG" alt="Fotosaceites"/>
                 <p>Aceite de oliva virgen extra <br/> Pet 2 litros</p>
             </div>
 
             <div className="Fotosaceites">
-                <img src="IMG/5lt.jpeg" alt="Fotosaceites"/>
+                <img src="/IMG/5lt.jpeg" alt="Fotosaceites"/>
                 <p>Aceite de oliva virgen extra <br/> Pet 5 litros</p>
             </div>
         </div>
