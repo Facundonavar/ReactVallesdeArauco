@@ -1,0 +1,42 @@
+.container-encabezado{
+    color: #333333;
+    background-color: #eeeeee;   
+    display: flex;
+    padding: 20px;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.Nombre{
+    min-width: 200px;
+    flex: 1;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 30px;
+    font-family: "Display";
+}
+
+.botonheader{
+    color: #333333;
+    text-decoration: none;
+    font-family: "Newsrader";
+}
+
+.botonheader:hover{
+    color:teal
+}
+
+.container-encabezado nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+
+

@@ -1,0 +1,39 @@
+.footerPage {
+    max-width: auto;
+    margin: 0;
+    background-color: #6F7302;
+    padding: 20px;
+    margin: 0px;
+}
+.NombreComercio h5{
+    width: 30%;
+    font-family: "Display";
+    color: #eeeeee;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.ContenedorIconos {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 250px;
+}
+
+.ContenedorIconos div p {
+    margin: 0;
+    font-size: 15px;
+    color: #F0E6DB;
+}
+
+.ContenedorIconos i {
+    margin-right: 8px;
+    font-size: 18px;
+    color: #F0E6DB;
+}
+
+

@@ -1,0 +1,83 @@
+.PageContactanos {
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 50px 20px;
+    background-color: #F0E6DB;
+  }
+
+
+
+  .PageContactanos h4 {
+    font-size: 25px;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.InicioFormulario {
+    font-size: 16px;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 0;
+}
+
+.ContenedorFormulario {
+
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 50px;
+    font-family: "Display";
+    font-size: 13px;
+
+}
+
+.DescripcionFormulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+label {
+    margin-top: 5px;
+  }
+  
+  
+#Enviar {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+
+  }
+
+.placeholder {
+    text-align: center;
+}
+
+.mensaje {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    background-color: #eeee;
+    font-weight: bold;
+}
+
+.mensaje p {
+    padding: 20px;
+ }
