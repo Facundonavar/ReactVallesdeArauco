@@ -4,6 +4,7 @@ import Aceitunas1kg from '../assets/1kg.JPEG';
 import Aceitunas2kg from '../assets/2kg.JPEG';
 import Aceitunas5kgVerdes from '../assets/5kg verdes.JPEG';
 import Aceitunas5kgNgeras from '../assets/5kg.JPEG';
+import OlivoCuatricentenario from '../assets/olivo cuticentenario.png';
 
 function PageAceitunas() {
   return (
@@ -71,7 +72,7 @@ function PageAceitunas() {
             </p>
 
             <div class="IMGVisita">
-            <img src="/IMG/olivo cuticentenario.png" alt="BienvenidoHilal"/>
+            <img src={OlivoCuatricentenario} alt="BienvenidoHilal"/>
             </div>
         </div>
     </section>

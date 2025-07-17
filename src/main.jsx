@@ -9,7 +9,7 @@ import './AppGlobal.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ReactVallesdeArauco">
      <App />
     </BrowserRouter>
   </StrictMode>
