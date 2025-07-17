@@ -37,40 +37,16 @@ const handleSubmit = (e) => {
     };
 
 
-const handleCorreoInput = (e) => {
-    setFormularioData ({...formularioData, correo: e.target.value})
+    const handleInputChange = (e) => {
+        const {name, value} = e.target
 
-}
+        setFormularioData ({
+            ...formularioData,
+            [name] : value,
+        });
 
-
-const handleNombreInput = (e) => {
-    setFormularioData ({...formularioData, nombre: e.target.value})
-
-}
-
-
-const handleCiudadInput = (e) => {
-    setFormularioData ({...formularioData, ciudad: e.target.value})
-
-}
-
-
-const handleProvinciaInput = (e) => {
-    setFormularioData ({...formularioData, provincia: e.target.value})
-
-}
-
-
-const handleTelefonoInput = (e) => {
-    setFormularioData ({...formularioData, telefono: e.target.value})
-
-}
-
-
-const handleMensajeInput = (e) => {
-    setFormularioData ({...formularioData, mensaje: e.target.value})
-
-}
+        console.log ('${name} : ${value}');
+    }
 
 
 
@@ -93,32 +69,63 @@ const handleMensajeInput = (e) => {
                
                 <div className="ContenedorFormulario">
                     <div className="DescripcionFormulario">
-                        <input type="text"  id="correo" onChange={handleCorreoInput} value={formularioData.correo}/>
+                        <input 
+                        type="text"  
+                        id="correo" 
+                        name= "correo"
+                        onChange={handleInputChange} 
+                        value={formularioData.correo}
+                        />
                         <label htmlFor="correo" >Correo Electronico</label>
                      </div>
 
                     <div className="DescripcionFormulario">
-                        <input type="text" id="nombre" onChange={handleNombreInput} value={formularioData.nombre}/>
+                        <input type="text" 
+                        id="nombre" 
+                        name= "nombre"
+                        onChange={handleInputChange} 
+                        value={formularioData.nombre}
+                        />
                         <label htmlFor="nombre" >Nombre y Apellido</label>
                     </div>
 
                     <div className="DescripcionFormulario">
-                        <input type="text" id="ciudad" onChange={handleCiudadInput} value={formularioData.ciudad}/>
+                        <input type="text" 
+                        id="ciudad" 
+                        name= "ciudad"
+                        onChange={handleInputChange} 
+                        value={formularioData.ciudad}
+                        />
                         <label htmlFor="ciudad" >Ciudad</label>
                     </div>
 
                     <div className="DescripcionFormulario">
-                        <input type="text" id="provincia" onChange={handleProvinciaInput} value={formularioData.provincia}/>
+                        <input type="text" 
+                        id="provincia" 
+                        name= "provincia"
+                        onChange={handleInputChange} 
+                        value={formularioData.provincia}
+                        />
                         <label htmlFor="provincia" >Provincia</label>
                     </div>
 
                     <div className="DescripcionFormulario">
-                        <input type="text" id="telefono" onChange={handleTelefonoInput} value={formularioData.telefono}/>
+                        <input type="text" 
+                        id="telefono" 
+                        name="telefono"
+                        onChange={handleInputChange} 
+                        value={formularioData.telefono}
+                        />
                         <label htmlFor="telefono" >Telefono</label>
                     </div>
 
                     <div className="DescripcionFormulario">
-                        <input type="text" id="mensaje" onChange={handleMensajeInput} value={formularioData.mensaje}/>
+                        <input type="text" 
+                        id="mensaje" 
+                        name="mensaje"
+                        onChange={handleInputChange} 
+                        value={formularioData.mensaje}
+                        />
                         <label htmlFor="mensaje" >Mensaje</label>
                     </div>
 

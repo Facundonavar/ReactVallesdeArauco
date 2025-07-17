@@ -15,7 +15,7 @@ function App() {
     <MenuNavegacion />
 
       <Routes>
-        <Route path="/ReactVallesdeArauco" element={<Secciones />} />
+        <Route path="/" element={<Secciones />} />
         <Route path= "/Secciones" element= {<Secciones />} />
         <Route path= "/PageAceites" element= {<PageAceites />} />
         <Route path= "/PageAceitunas" element= {<PageAceitunas />} />
