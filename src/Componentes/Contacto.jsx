@@ -45,7 +45,8 @@ const handleSubmit = (e) => {
             [name] : value,
         });
 
-        console.log ('${name} : ${value}');
+        console.log (`${name} : ${value}`);
+        console.log(formularioData);
     }
 
 
