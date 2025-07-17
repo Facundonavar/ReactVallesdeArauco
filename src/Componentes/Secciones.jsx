@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import '../Styles/Secciones.css'
 import '../AppGlobal.css'
+import Interfaz1 from '../assets/Interfaz1 - copia.jpeg';
+import Aceite from '../assets/Aceite.jpeg';
+import BienvenidoHilal from '../assets/BienvenidoHilal.JPEG';
 
 function Secciones() {
     const [zoom, setZoom] = useState (false)
@@ -10,7 +13,7 @@ function Secciones() {
     <>
 
          <div className="ENCABEZADOIMAGEN">   
-             <img src="/IMG/Interfaz1 - copia.jpeg" alt="ENCABEZADOIMG" 
+             <img src={Interfaz1} alt="ENCABEZADOIMG" 
              className={zoom ?'zoom-activo' : '' }
              onMouseEnter={() => setZoom (true)}
              onMouseLeave={() => setZoom (false)}
@@ -33,7 +36,7 @@ function Secciones() {
              <div class="VisitaHilal">
 
                  <div class="IMGVisita">     
-                     <img src="/IMG/Aceite.JPEG" alt="FotoAceite"/>
+                     <img src={Aceite} alt="FotoAceite"/>
                  </div>
 
                  <p class="Visitaguiada">
@@ -41,7 +44,7 @@ function Secciones() {
                  </p>
      
                  <div class="IMGVisita">
-                     <img src="/IMG/BienvenidoHilal.JPEG" alt="Fotocarteleria"/>
+                     <img src={BienvenidoHilal} alt="Fotocarteleria"/>
                  </div>
              </div>
         </section>

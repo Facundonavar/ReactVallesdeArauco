@@ -1,4 +1,8 @@
 import '../Styles/PageAceites.css'
+import Aceiteoliva from '../assets/Aceiteoliva.JPG';
+import Aceite1litro from '../assets/Aceite 1litro.JPEG';
+import Aceite2litros from '../assets/2lts.JPEG';
+import Aceite5litros from '../assets/5lt.jpeg';
 
 function PageAceites() {
   return (
@@ -24,7 +28,7 @@ function PageAceites() {
 
 
             <div className="imgMedia">
-                <img src="/IMG/Aceiteoliva.JPG" alt="imgMedia"/>
+                <img src={Aceiteoliva} alt="imgMedia"/>
             </div>
         </div>
     </section>
@@ -38,18 +42,18 @@ function PageAceites() {
     
 
             <div className="Fotosaceites">
-                <img src="/IMG/Aceite 1litro.JPEG" alt="Fotosaceites"/>
+                <img src={Aceite1litro} alt="Fotosaceites"/>
                 <p>Aceite de oliva virgen extra <br/> Botellon 1 litro</p>
             </div>
     
 
             <div className="Fotosaceites">
-                <img src="/IMG/2lts.JPEG" alt="Fotosaceites"/>
+                <img src={Aceite2litros} alt="Fotosaceites"/>
                 <p>Aceite de oliva virgen extra <br/> Pet 2 litros</p>
             </div>
 
             <div className="Fotosaceites">
-                <img src="/IMG/5lt.jpeg" alt="Fotosaceites"/>
+                <img src={Aceite5litros} alt="Fotosaceites"/>
                 <p>Aceite de oliva virgen extra <br/> Pet 5 litros</p>
             </div>
         </div>
